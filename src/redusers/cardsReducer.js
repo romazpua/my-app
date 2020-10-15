@@ -11,6 +11,16 @@ const initialState = {
       rating: [true, true, true, true, false],
       comments: 131,
       cashback: '199 $',
+      headOfProductForSingle: {
+        sale: true,
+        top: true,
+        cashb: true,
+        exclusive: true,
+      },
+      credit: {
+        parts: 12,
+        month: 24,
+      },
     },
     {
       id: 2,
@@ -23,6 +33,16 @@ const initialState = {
       rating: [true, true, true, true, false],
       comments: 31,
       cashback: '169 $',
+      headOfProductForSingle: {
+        sale: true,
+        top: true,
+        cashb: true,
+        exclusive: false,
+      },
+      credit: {
+        parts: 12,
+        month: 24,
+      },
     },
     {
       id: 3,
@@ -35,6 +55,16 @@ const initialState = {
       rating: [true, true, true, true, false],
       comments: '',
       cashback: '73 $',
+      headOfProductForSingle: {
+        sale: true,
+        top: true,
+        cashb: true,
+        exclusive: true,
+      },
+      credit: {
+        parts: 12,
+        month: 24,
+      },
     },
     {
       id: 4,
@@ -47,6 +77,16 @@ const initialState = {
       rating: [true, true, true, true, false],
       comments: 22,
       cashback: '99 $',
+      headOfProductForSingle: {
+        sale: true,
+        top: true,
+        cashb: true,
+        exclusive: false,
+      },
+      credit: {
+        parts: 12,
+        month: 24,
+      },
     },
   ]
 }

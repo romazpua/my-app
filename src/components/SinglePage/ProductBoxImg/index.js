@@ -2,6 +2,7 @@ import React, {useState, useEffect} from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faCalendar, faChartPie} from "@fortawesome/free-solid-svg-icons";
 import "./index.scss"
+import {connect} from "react-redux";
 
 const ProductBoxImg =()=>{
 
@@ -62,4 +63,9 @@ const ProductBoxImg =()=>{
         </div>
     )
 }
-export default ProductBoxImg;
+
+const mapStateToProps = (store) => ({
+    cards: store.cardsRoot.cards
+})
+
+export default connect(mapStateToProps, null)(ProductBoxImg);
