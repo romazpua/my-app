@@ -12,10 +12,10 @@ const initialState = {
       comments: 131,
       cashback: '199 $',
       headOfProductForSingle: {
-        sale: true,
-        top: true,
-        cashb: true,
-        exclusive: true,
+        sale: 'block',
+        top: 'none',
+        cashb: 'block',
+        exclusive: 'block',
       },
       credit: {
         parts: 12,
