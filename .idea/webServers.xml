@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="cee5e00c-4a99-479b-ac10-24fb1699bb6b" name="Robert">
+        <fileTransfer rootFolder="/home/django/ifloorplan" accessType="SFTP" host="45.56.80.77" port="22" sshConfigId="4f5dd925-7294-4481-a9a1-c7fad7721074" sshConfig="root@45.56.80.77:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="b4d7839e-676a-4a1c-b10a-a2b0630962d5" name="SmartPipl">
+        <fileTransfer rootFolder="/mnt/sdb/www/html/public/smartpipl-new/wp-content/themes/sage-master" accessType="SFTP" host="smartpipl.ddns.net" port="55022" sshConfigId="e5e42799-16c8-4e06-93e6-140f2a68e6f0" sshConfig="sp_root@smartpipl.ddns.net:55022 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

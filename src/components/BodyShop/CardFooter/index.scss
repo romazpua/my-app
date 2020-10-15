@@ -1,0 +1,28 @@
+.card__footer {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  bottom: -41px;
+  left: 0;
+  height: 40px;
+  background: white;
+  align-self: flex-end;
+  border-top: 1px solid rgba(150, 150, 150, 0.2);
+  border-radius: 0 0 5px 5px;
+  transition: .4s;
+  transform: translateY(-100%);
+  z-index: -10;
+
+  .card__footer_compare,
+  .card__footer_favorites {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 10px;
+    font-size: 13px;
+    letter-spacing: -0.5px;
+  }
+}

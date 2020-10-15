@@ -1,0 +1,69 @@
+.card__buttons {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-bottom: 15px;
+
+  .card__buttons-row {
+    width: 50%;
+
+    .card__price-discount {
+      display: flex;
+      align-items: center;
+
+      p {
+        font-size: 15px;
+        text-decoration: line-through;
+        margin: 0;
+      }
+
+      label {
+        font-size: 14px;
+        background: yellow;
+        padding: 2px 7px;
+        border-radius: 5px;
+        margin-left: 10px;
+      }
+    }
+
+    .card__price {
+      font-size: 36px;
+      font-weight: 700;
+    }
+
+    .card__price-trust {
+      margin-bottom: 10px;
+
+      a {
+        font-size: 15px;
+        letter-spacing: -1px;
+        border-bottom: 2px dotted black;
+      }
+    }
+
+    &.button {
+      display: flex;
+      justify-content: flex-end;
+      .product-buy-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #E95D2A;
+        border-radius: 5px;
+        width: 120px;
+        height: 46px;
+
+        p {
+          margin: 0 0 0 10px;
+          color: white;
+          font-size: 15px;
+          font-weight: 700;
+          text-transform: uppercase;
+          letter-spacing: -1px;
+        }
+      }
+    }
+  }
+}

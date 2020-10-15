@@ -1,0 +1,110 @@
+.product-img {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-right: 1px solid rgba(128, 128, 128, 0.1);
+
+  .product-img__wrap {
+    width: 100%;
+    max-height: 500px;
+
+    .product-img__main {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      border-bottom: 1px solid rgba(128, 128, 128, 0.1);
+
+      .product-img__main-over {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+
+        .product-img__main-tags {
+          .hidden-overflow {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+
+            .card-tags__item {
+              list-style: none;
+              margin-bottom: 8px;
+
+              .action-icon {
+                img {
+                  margin-right: 10px;
+                }
+              }
+            }
+          }
+        }
+
+        .product-img__main-credits {
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+          flex-direction: column;
+          margin: 0;
+
+          .icon {
+            display: flex;
+            align-items: baseline;
+            list-style: none;
+            color: #BEBEBE;
+            margin-bottom: 5px;
+
+            svg {
+              color: #BEBEBE;
+              margin-right: 3px;
+            }
+
+            p {
+              font-size: 12px;
+              margin: 0;
+            }
+          }
+        }
+      }
+
+      .product-img__carousel {
+        img {
+          width: 314px;
+        }
+      }
+    }
+  }
+
+  .product-img__specs {
+    padding: 25px 25px 0;
+
+    ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+
+      li {
+        width: 50%;
+        margin-bottom: 25px;
+
+        label {
+          color: #B3B3B3;
+          font-size: 14px;
+          letter-spacing: -1px;
+        }
+
+        p {
+          color: #605C69;
+          font-size: 14px;
+          letter-spacing: -1px;
+          margin: 0;
+          margin-top: 5px;
+        }
+      }
+    }
+  }
+}

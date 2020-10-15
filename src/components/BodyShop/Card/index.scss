@@ -1,0 +1,47 @@
+.cards__wrap {
+  display: flex;
+  height: 520px;
+  overflow-x: scroll;
+  align-self: center;
+  justify-content: center;
+
+  .card__wrap {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+
+    .card {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      max-width: 320px;
+      min-width: 270px;
+      width: 100%;
+      background: white;
+      border-radius: 5px;
+      padding: 15px 15px 0;
+      position: relative;
+      margin: 1px 1px 40px;
+      transition: .4s;
+    }
+
+    &:hover {
+      .card {
+        box-shadow: 10px 5px 12px -8px rgba(0, 0, 0, 0.2),
+        -10px 5px 12px -8px rgba(0, 0, 0, 0.2);
+
+        .card__footer {
+          transform: scaleY(1);
+          z-index: 1;
+          box-shadow: 10px 0 12px -8px rgba(0, 0, 0, 0.2),
+          -10px 0 12px -8px rgba(0, 0, 0, 0.2),
+          0 10px 12px -8px rgba(0, 0, 0, 0.2);
+        }
+      }
+    }
+  }
+}
+
+
+

@@ -1,0 +1,11 @@
+a{
+  font-size: 22px;
+  max-height: 50px;
+  overflow: hidden;
+  color: black;
+  transition: .1s;
+  margin-bottom: 15px;
+  &:hover{
+    color: #E9602E;
+  }
+}

@@ -1,0 +1,39 @@
+.product-box__response {
+  display: flex;
+
+  .product-box__response-review {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    .product-box__response-rating{
+      margin-right: 25px;
+    }
+
+    .product-box__response-comments {
+      display: flex;
+      margin: 0 25px 0 0;
+      font-size: 16px;
+
+      p {
+        margin: 0;
+      }
+    }
+  }
+
+  .product-box__response-text{
+    color: #bebebe;
+    font-size: 14px;
+  }
+  .product-box__response-buttons{
+    display: flex;
+    width: 230px;
+    margin: auto;
+    .product-box__response-button{
+      padding-left: 25px;
+      label{
+        font-size: 14px;
+        letter-spacing: -1px ;
+      }
+    }
+  }
+}
