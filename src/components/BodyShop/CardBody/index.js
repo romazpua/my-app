@@ -2,10 +2,9 @@ import React from "react";
 import "./index.scss"
 import {Link} from "react-router-dom";
 
-function CardBody ({title}){
+function CardBody ({title, cardId}){
   return(
-    // <a href="#">{title}</a>
-    <Link to={'/single'}>{title}</Link>
+    <Link to={`/single/${cardId}`}>{title}</Link>
   )
 }
 

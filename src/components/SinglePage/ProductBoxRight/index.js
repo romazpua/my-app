@@ -4,7 +4,7 @@ import ProductBoxRightMain from "../ProductBoxRightMain";
 import ProductBoxRightResponse from "../ProductBoxRightResponse";
 
 
-const ProductBoxRight = () => {
+const ProductBoxRight = ({cardId}) => {
     return (
         <div className="product-box__right">
             <div className="product-box__ad">
@@ -17,9 +17,9 @@ const ProductBoxRight = () => {
                 </div>
             </div>
 
-            <ProductBoxRightMain/>
+            <ProductBoxRightMain cardId={cardId}/>
 
-            <ProductBoxRightResponse/>
+            <ProductBoxRightResponse cardId={cardId}/>
 
         </div>
     )

@@ -15,7 +15,7 @@ function App() {
         <Route exact path="/">
           <BodyShop/>
         </Route>
-        <Route exact path="/single">
+        <Route exact path="/single/:id">
           <SinglePage/>
         </Route>
         <Route exact path="/clicker">

@@ -69,8 +69,10 @@ class Card extends Component {
 
           <div className='card__wrap' key={card.id}>
             <div className="card">
-              <CardHead imgSrc={card.imgSrc}/>
-              <CardBody title={card.title}/>
+              <CardHead imgSrc={card.imgSrc}
+                        cardId={card.id}/>
+              <CardBody title={card.title}
+                        cardId={card.id}/>
               <CardColInfo rating={card.rating}
                            comments={card.comments}
                            cashback={card.cashback}/>
